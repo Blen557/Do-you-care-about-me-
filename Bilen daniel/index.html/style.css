@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #yes-button {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  #no-button {
+    background-color: #f44336;
+    color: white;
+    position: relative;
+  }
+  
+  #message {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
